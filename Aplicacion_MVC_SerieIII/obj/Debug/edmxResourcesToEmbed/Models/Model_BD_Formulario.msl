@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model_BD_FormularioStoreContainer" CdmEntityContainer="Entities_BD_Formulario">
+    <EntitySetMapping Name="DATOS_FORMULARIO">
+      <EntityTypeMapping TypeName="Model_BD_Formulario.DATOS_FORMULARIO">
+        <MappingFragment StoreEntitySet="DATOS_FORMULARIO">
+          <ScalarProperty Name="ID_FORMUALRIO" ColumnName="ID_FORMUALRIO" />
+          <ScalarProperty Name="NOMBRE_FORMULARIO" ColumnName="NOMBRE_FORMULARIO" />
+          <ScalarProperty Name="KEY_FORMULARIO" ColumnName="KEY_FORMULARIO" />
+          <ScalarProperty Name="LABEL_FORMULARIO" ColumnName="LABEL_FORMULARIO" />
+          <ScalarProperty Name="REQURIDO_FORMULARIO" ColumnName="REQURIDO_FORMULARIO" />
+          <ScalarProperty Name="ORDEN_FORMULARIO" ColumnName="ORDEN_FORMULARIO" />
+          <ScalarProperty Name="CONTROL_TYPE" ColumnName="CONTROL_TYPE" />
+          <ScalarProperty Name="TYPE_FORMULARIO" ColumnName="TYPE_FORMULARIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
